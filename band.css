@@ -1,0 +1,287 @@
+@import url('https://fonts.cdnfonts.com/css/nunito-2');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .header{
+    position: fixed;
+    height: 47px;
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+   
+ }
+ .navbar{
+      word-spacing: 45px;
+      text-transform: uppercase;
+      margin-left: 20px;  
+      
+ }
+.navbar a{
+        color: white;
+        text-decoration: none;
+    }
+ .search{
+      margin-right: 25px;
+      color: white;
+ }
+ /* ------main--------- */
+ .main{
+    height: 700px;
+    width: 100%;
+ }
+ .main img{
+    height: 100%;
+    width: 100%;
+ }
+/* ------band--------- */
+
+.band{
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 80%;
+    width: 57%;
+}
+.upper{
+    height: 55%;
+}
+.upper h2{
+    font-size: 35px;
+    margin-left: 35%;
+    /* font-family: 'Noto Sans Devanagari', sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+                                                
+    text-transform: uppercase;
+    padding: 25px;
+}
+.upper h4{
+    margin-left: 35%;
+    font-size: 20px;
+    padding-left: 65px;
+}
+.upper p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.lower{
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 33px;
+}
+.box{
+    height: 87%;
+    width: 18%;
+   
+}
+.box p{
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: 'Noto Sans', sans-serif;
+                                                
+}
+.box img{
+    margin-top: 5%;
+    height: 83%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* ----------tour----------- */
+
+.tour{
+    height: 900px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_box{
+    height: 80%;
+    width: 60%;
+    background-color: black;
+   
+}
+.up{
+    height: 300px;
+    width: 91%;
+    border: solid;
+    margin: auto;
+
+}
+.up h1{
+    font-size: 40px;
+    margin-left: 30%;
+    text-transform: uppercase;
+    color: white;
+}
+.up p{
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: gray;
+    
+}
+.up input{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+
+.down{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    position: relative;
+}
+.ticket{
+    height: 100%;
+    width: 27%;
+    background-color: white;
+}
+.ticket img{
+    width: 100%;
+    height: 50%;
+  
+}
+.ticket h3{
+   margin: 15px;
+}
+.ticket p{
+    margin: 15px;
+}
+.ticket button{
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+     margin-bottom: 30px;
+     margin-left: 15px;
+    color: white;
+    background-color: black;
+}
+
+/* ----------contact----------- */
+
+
+.contact{
+      height: 450px;
+      width: 100%;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+}
+.con_up{
+    height: 40%;
+    width: 100%;
+ 
+}
+.con_up h1{
+    font-size: 45px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 55px;
+    padding-left: 40%;
+}
+
+
+
+.con_down{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.con_icon{
+   
+    height: 100%;
+    width: 15%;
+ 
+}
+.form{
+    height: 100%;
+    width: 25%;
+    padding-top: 40px;
+   
+}
+.con_icon i{
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+.con_icon p{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+}
+.form input{
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+
+    
+}
+.form button{
+    font-size: 25px;
+    height: 45px;
+    width: 120px;
+    position: absolute;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    
+}
+
+
+.con_down img{
+    height: 100%;
+    width: 100%;
+}
+
+/* ----------image----------- */
+
+
+
+.con_up p{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 41%;
+}
+
+/* ----------.footer{
+----------- */
+.footer{
+    height: 216px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.footer i{
+    font-size: 25px;
+    margin-top: 70px;
+   
+  
+}
+.footer p{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 115px;
+    margin-right: 10px;
+}
